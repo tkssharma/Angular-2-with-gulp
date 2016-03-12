@@ -1,0 +1,34 @@
+<div>
+  <h3>Mails</h3>
+</div>
+
+<table class="table table-striped">
+  <tr>
+    <th>
+      From First name
+    </th>
+    <th>
+      Last Name
+    </th>
+    <th>
+      Mob No
+    </th>
+    <th>
+      Message 
+    </th>
+  </tr>
+  <tr *ngFor="#user of users; #i = index">
+    <td>
+      {{ user.name.first }}
+    </td>
+    <td>
+      {{ user.name.last }}
+    </td>
+    <td>
+      {{ user.phone }}
+    </td>
+    <td>
+      <a [routerLink]="['/Profile', {id: user.username}]">View</a>
+    </td>
+  </tr>
+</table>

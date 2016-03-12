@@ -1,0 +1,28 @@
+.router-link-active {
+  font-weight: bold;
+}
+.headerbg {
+    background: #155F7B;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: transparent !important;
+    height: 60px;
+}
+a.icon {
+    color: #ffffff !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent !important;
+}
+.icon{
+	font-size: 30px;
+}
+
